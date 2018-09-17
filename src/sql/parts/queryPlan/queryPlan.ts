@@ -41,6 +41,8 @@ export class QueryPlanView implements IPanelView {
 			}
 		}
 		container.appendChild(this.container);
+		container.style.overflow = 'scroll';
+		container.style.background = 'white';
 	}
 
 	public layout(dimension: Dimension): void {
